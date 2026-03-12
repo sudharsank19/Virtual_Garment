@@ -1,0 +1,14 @@
+name: schp
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - opencv-python==4.4.0.46
+      - pillow
+      - tqdm
+      - scikit-learn
+      - matplotlib
+      - yacs

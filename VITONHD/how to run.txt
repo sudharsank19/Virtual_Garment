@@ -1,0 +1,25 @@
+
+
+4️⃣ Run VITON-HD test
+
+Replace demo with your actual experiment name (do not use <NAME> literally):
+
+conda activate vitonhd_gpu
+
+
+python test.py --name iyappa
+
+
+
+4. for cloth background remove 
+
+run:
+
+rembg i D:\VITON-HD\datasets\raw\cloth.jpg D:\VITON-HD\datasets\raw\cloth_mask\cloth.jpg
+
+5. for cloth mask 
+
+run:
+
+python cloth_mask.py
+
